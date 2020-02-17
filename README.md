@@ -13,3 +13,19 @@ Popup
 :-------------------------:
 ![Example](./SteamKeysValidator/images/Screenshots.png)
 
+# Changelog
+### v1
+* First version maybe the last
+   * validate and divide the used keys from those not and generate .txt files.
+
+# Problems
+* Sometimes the partner.steamgames.com page does not load fast and the keys have a repeated value to the previous one.
+* The textarea and a counter appears a repeated key and a number of more but when creating the files everything is fine.
+
+# Install
+* Download the STEAM-KEYS-VALIDATOR.crx file that is in the compiledextension folder and drag it to your scan, that's it.
+* If you want to modify the extension, contribute or improve the code, you can download the SteamKeysValidator folder and open your browser and install.
+
+# Questions
+* Should I install a library to use? No, you just have to install the extension and go.
+* What license do you have? GNU General Public License
