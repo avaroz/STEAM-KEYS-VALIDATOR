@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "browser_action": {
+    "default_icon": "images/icono.png",
+    "default_title": "STEAM KEYS VALIDATOR - BY NEZOS GAMES"
+  },
+
+  "name": "STEAM KEYS VALIDATOR - By NEZOSGAMES",
+  "description": "Validate multiple steam keys and generate txt files with the keys that have not been used and those that were used.",
+  "version": "1",
+
+  "browser_action": {
+    "default_icon": "images/icono.png",
+    "default_popup": "index.html"
+  },
+  "icons": { "16": "images/icon16.png",
+             "48": "images/icon48.png",
+             "128": "images/icon128.png" },
+  "permissions": ["tabs", "<all_urls>"],
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["js/accordeon.js", "/js/cdkeysvalidator.js", "js/getPagesSource.js"]
+  }]
+}
