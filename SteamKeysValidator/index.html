@@ -1,0 +1,56 @@
+<!--
+@author avarozdev <http://nezosgames.com>
+github: https://github.com/tomasfjm/STEAM-KEYS-VALIDATOR
+-->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>STEAM KEYS VALIDATOR</title>
+  <link rel='stylesheet' type="text/css" href='css/style.css' />
+</head>
+
+<body>
+  <div class="contenedor">
+    <h1>STEAM KEYS VALIDATOR</h1>
+    <div id='message'>Waiting for keys</div>
+    <button class="accordion" id="titlevalidar">Validate Keys</button>
+    <div class="panel" style="text-align: center;">
+      <textarea class="form-control" name="keys" rows="8" cols="80" id="keyslist" placeholder="Small keys here...."></textarea>
+      <textarea class="form-control" name="codhtml" rows="8" cols="40" style="max-height:20px;display: none" id="codigohtmlfull" placeholder="Scanning the html..." disabled></textarea>
+
+      <a class="boton" href="#" id="click-this">VALIDATE</a>
+    </div>
+
+    <button class="accordion" id="titlenoactivadas">Unused keys...</button>
+    <div class="panel">
+      <textarea class="form-control" name="keyssinusar" rows="8" cols="80" id="textunusedkeys" placeholder="Unused keys..."></textarea>
+    </div>
+
+    <button class="accordion" id="titleactivadas">Keys used...</button>
+    <div class="panel">
+      <textarea class="form-control" name="keysusadas" rows="8" cols="80" id="keysusedtext" placeholder="Keys used..."></textarea>
+    </div>
+    <button class="accordion" id="titleactivadas">About the extension</button>
+    <div class="panel">
+      <p>I wanted to validate the keys of my game but I found that I could only validate one key at a time, although there is "steam cdkey batchquery" that works with node.js and that may be a good option, but having to copy the cookei and do other
+        things gave me laziness, I don't know how fast that alternative works, not even the probe, but here is my effort of a whole night trying to automate something extremely boring.</p>
+      <p>I am sure that the code can be improved and that is why I publish the source on github.</p>
+      <p>My Website: <a href="https://www.nezosgames.com" target="_blank">nezosgames.com</a></p>
+      <p>Buy a game?: <a href="https://store.steampowered.com/search/?developer=NEZOS%20GAMES" target="_blank">Steam</a> or <a href="https://nezosgames.itch.io" target="_blank">itch.io</a></p>
+      <br>
+      <p>Sincerely:</p>
+      <p><a href="https://twitter.com/avarozdev" target="_blank">@Avarozdev</a></p>
+
+    </div>
+
+    <script src='js/cdkeysvalidator.js'></script>
+    <script src='js/accordeon.js'></script>
+  </div>
+
+  <div class="footer">
+    <p><a href="https://www.paypal.me/tomasfjm" target="_blank"><b>Buy a Coffee</b></a> | <a href="https://github.com/tomasfjm/STEAM-KEYS-VALIDATOR" target="_blank">Go to github</a></p>
+  </div>
+</body>
+
+</html>
