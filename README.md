@@ -34,9 +34,8 @@ Popup
 * compatibility? I tried it on opera gx, in theory it should work with any chromium-based browser.
 
 # Contact
-My Website: https://www.nezosgames.com
-Buy a game?: 
-Steam: https://store.steampowered.com/search/?developer=NEZOS%20GAMES 
-or 
-itch.io: https://nezosgames.itch.io
-@Avarozdev in twitter.
+* My Website: https://www.nezosgames.com
+* Buy a game?: 
+   * Steam: https://store.steampowered.com/search/?developer=NEZOS%20GAMES 
+   * itch.io: https://nezosgames.itch.io
+* @Avarozdev in twitter.
