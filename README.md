@@ -21,11 +21,14 @@ Popup
 # Problems
 * Sometimes the partner.steamgames.com page does not load fast and the keys have a repeated value to the previous one.
 * The textarea and a counter appears a repeated key and a number of more but when creating the files everything is fine.
+* Do not save data, if you close the popup before everything is deleted, make sure you finish validating the keys and generating the files before closing the popup.
+* For the same reason of the previous point, nothing else can be done in the browser until all the validations are finished, Si quiere sentirse inteligente mejor use: https://gist.github.com/Jimbly/9f6c6a0d9414310347f2803902ac7bb7 for Jimbly.
 
 # Install
-* Download the STEAM-KEYS-VALIDATOR.crx file that is in the compiledextension folder and drag it to your scan, that's it.
+* Download the STEAM-KEYS-VALIDATOR.crx file that is in the compiledextension folder and drag it to your explorer, that's it.
 * If you want to modify the extension, contribute or improve the code, you can download the SteamKeysValidator folder and open your browser and install.
 
 # Questions
 * Should I install a library to use? No, you just have to install the extension and go.
 * What license do you have? GNU General Public License
+* compatibility? I tried it on opera gx, in theory it should work with any chromium-based browser.
