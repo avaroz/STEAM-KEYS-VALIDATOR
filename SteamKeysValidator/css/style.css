@@ -1,0 +1,163 @@
+/*
+@author avarozdev <http://nezosgames.com>
+github: https://github.com/tomasfjm/STEAM-KEYS-VALIDATOR
+*/
+body {
+  overflow-x: hidden;
+  min-width: 357px;
+  background: #222d32;
+  color: #b8c7ce;
+  font-family: 'arial', Georgia, Serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 40, 70);
+  border-radius: 10px;
+}
+
+.contenedor {
+  margin: 50px auto;
+  width: 95%;
+}
+
+.accordion {
+  background: linear-gradient(to right, #ff2846, #222d32);
+  margin-bottom: 3px;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 5px;
+  display: none;
+  overflow: hidden;
+}
+
+#wrapper {
+  width: 100%;
+  background-color: #3d5058;
+  display: flex;
+  border: 1px solid #3d5058;
+}
+
+.decoconten {
+  padding: 5px;
+}
+
+.table1 {
+  flex: 1;
+  background-color: #2e383e;
+  text-align: center;
+  border-right: 1px solid #3d5058;
+}
+
+.table2 {
+  flex: 2;
+  background-color: #212b30;
+  text-align: center;
+}
+
+.table3 {
+  flex: 3;
+  background-color: #212b30;
+  text-align: center;
+}
+
+.boton {
+  box-shadow: rgba(0, 0, 0, .12) 0 3px 13px 1px;
+  color: #fff;
+  padding: 1em 1.5em;
+  background: rgb(255, 40, 70);
+  border-radius: 3px;
+  width: 80%;
+}
+
+.boton:hover {
+  color: #fff;
+}
+
+.boton {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: 500;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.boton:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.form-control {
+  display: block;
+  resize: vertical;
+  width: 100%;
+  min-height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: .375rem .75rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #191a1d;
+  background-clip: padding-box;
+  border: 1px solid #54565d;
+  border-radius: .55rem;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+
+.form-control:focus {
+  border: 3px solid rgb(255, 40, 70);
+  color: #b8c7ce;
+}
+
+#message {
+  font-size: 1rem;
+  text-align: center;
+  border-radius: .55rem;
+  border: 1px solid #54565d;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 40, 70);
+  color: white;
+  text-align: center;
+}
