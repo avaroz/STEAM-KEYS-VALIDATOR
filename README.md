@@ -14,6 +14,9 @@ Popup
 ![Example](./SteamKeysValidator/images/Screenshots.png)
 
 # Changelog
+### v2
+* Here we are again.
+   * Yes, I had to re-code it because it didn't work, it works and looks nicer.
 ### v1
 * First version maybe the last
    * validate and divide the used keys from those not and generate .txt files.

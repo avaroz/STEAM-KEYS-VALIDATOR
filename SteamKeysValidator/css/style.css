@@ -5,7 +5,7 @@ github: https://github.com/tomasfjm/STEAM-KEYS-VALIDATOR
 body {
   overflow-x: hidden;
   min-width: 357px;
-  background: #222d32;
+  background: #00262d;
   color: #b8c7ce;
   font-family: 'arial', Georgia, Serif;
 }
@@ -20,40 +20,61 @@ a {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: #00262d;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(255, 40, 70);
+  background-color: #02ffc4;
   border-radius: 10px;
 }
 
 .contenedor {
-  margin: 50px auto;
+  margin: 0 auto;
   width: 95%;
 }
 
-.accordion {
-  background: linear-gradient(to right, #ff2846, #222d32);
-  margin-bottom: 3px;
+#title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
   color: #ffffff;
-  border-radius: 5px;
+  margin-left: .5rem;
+  font-size: 2rem;
+}
+h1>span {
+  background-color: #02ffc4;
+  border-radius: .5rem;
+  padding: .2rem;
+  font-size: 1rem;
+  color: #00262d;
+}
+
+.accordion {
+  background: #00262d;
+  border: 1px solid #02ffc4;
+  border-left: 3px solid #02ffc4;
+  color: #02ffc4;
+  border-radius: .55rem .55rem 0 0;
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  border: none;
   text-align: left;
   outline: none;
   font-size: 15px;
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
-  background-color: #ccc;
+.active,
+.accordion:hover {
+  background-color: #02ffc4;
+  border-left: 5px solid #02ffc4;
+  color: #00262d;
 }
 
 .panel {
-  padding: 0 5px;
   display: none;
   overflow: hidden;
 }
@@ -90,15 +111,18 @@ a {
 
 .boton {
   box-shadow: rgba(0, 0, 0, .12) 0 3px 13px 1px;
-  color: #fff;
+  color: #02ffc4;
   padding: 1em 1.5em;
-  background: rgb(255, 40, 70);
-  border-radius: 3px;
+  border: 1px solid #00fac5;
+  background: #00262d;
+  border-radius: .5rem;
   width: 80%;
 }
 
 .boton:hover {
-  color: #fff;
+  color: #00262d;
+  border: 1px solid #00262d;
+  background: #02ffc4;
 }
 
 .boton {
@@ -123,31 +147,33 @@ a {
   resize: vertical;
   width: 100%;
   min-height: 100px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   margin-bottom: 10px;
   padding: .375rem .75rem;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
-  background-color: #191a1d;
+  color: #00fac5;
+  background-color: #00262d;
   background-clip: padding-box;
-  border: 1px solid #54565d;
-  border-radius: .55rem;
+  border: 1px solid #00fac5;
+  border-radius: 0 0 .55rem .55rem;
   transition: all 0.3s ease-in-out;
   outline: none;
 }
-
+.form-control::placeholder {
+  color: #00fac5;
+}
 .form-control:focus {
-  border: 3px solid rgb(255, 40, 70);
-  color: #b8c7ce;
+  border: 1px solid #ffffff;
+  color: #ffffff;
 }
 
 #message {
   font-size: 1rem;
   text-align: center;
   border-radius: .55rem;
-  border: 1px solid #54565d;
+  border: 1px solid #ffffff;
   padding: 10px;
   margin-bottom: 10px;
 }
@@ -157,7 +183,7 @@ a {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(255, 40, 70);
-  color: white;
+  background-color: rgba(0, 0, 0, .90);
+  color: #00262d!important;
   text-align: center;
 }

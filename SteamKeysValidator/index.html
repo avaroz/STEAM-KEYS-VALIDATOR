@@ -12,44 +12,63 @@ github: https://github.com/tomasfjm/STEAM-KEYS-VALIDATOR
 
 <body>
   <div class="contenedor">
-    <h1>STEAM KEYS VALIDATOR</h1>
+    <div id="title">
+      <img src="images/icon48.png" alt="">
+      <h1>SKV <span>2.0</span></h1>
+    </div>
     <div id='message'>Waiting for keys</div>
+    <h3>Input:</h3>
     <button class="accordion" id="titlevalidar">Validate Keys</button>
-    <div class="panel" style="text-align: center;">
-      <textarea class="form-control" name="keys" rows="8" cols="80" id="keyslist" placeholder="Small keys here...."></textarea>
-      <textarea class="form-control" name="codhtml" rows="8" cols="40" style="max-height:20px;display: none" id="codigohtmlfull" placeholder="Scanning the html..." disabled></textarea>
+    <div class="panel" style="text-align: center;display: block!important;">
+      <textarea class="form-control" name="keys" rows="7" cols="80" id="keyslist"
+        placeholder="Paste the keys here...."></textarea>
+      <textarea class="form-control" name="codhtml" rows="8" cols="40" style="max-height:20px;display: none"
+        id="codigohtmlfull" placeholder="Scanning the html..." disabled></textarea>
 
-      <a class="boton" href="#" id="click-this">VALIDATE</a>
+      <a class="boton" href="#" id="click-this">VALIDATE KEYS</a>
+    </div>
+    <h3>Output:</h3>
+    <button class="accordion" id="titlenoactivadas">List Unused keys...</button>
+    <div class="panel">
+      <textarea class="form-control" name="keyssinusar" rows="8" cols="80" id="textunusedkeys"
+        placeholder="Unused keys..."></textarea>
     </div>
 
-    <button class="accordion" id="titlenoactivadas">Unused keys...</button>
+    <button class="accordion" id="titleactivadas">List Keys used...</button>
     <div class="panel">
-      <textarea class="form-control" name="keyssinusar" rows="8" cols="80" id="textunusedkeys" placeholder="Unused keys..."></textarea>
+      <textarea class="form-control" name="keysusadas" rows="8" cols="80" id="keysusedtext"
+        placeholder="Keys used..."></textarea>
     </div>
-
-    <button class="accordion" id="titleactivadas">Keys used...</button>
+    
+    <br><br>
+    <h3>Info:</h3>
+    <button class="accordion" id="titleactivadas">Read me</button>
     <div class="panel">
-      <textarea class="form-control" name="keysusadas" rows="8" cols="80" id="keysusedtext" placeholder="Keys used..."></textarea>
-    </div>
-    <button class="accordion" id="titleactivadas">About the extension</button>
-    <div class="panel">
-      <p>I wanted to validate the keys of my game but I found that I could only validate one key at a time, although there is "steam cdkey batchquery" that works with node.js and that may be a good option, but having to copy the cookei and do other
-        things gave me laziness, I don't know how fast that alternative works, not even the probe, but here is my effort of a whole night trying to automate something extremely boring.</p>
+      <p><b>How to use</b></p>
+      <ol>
+        <li>Open tab <a href="https://partner.steamgames.com/querycdkey/" target="_blank">steam querycdkey</a> (previously logged in)</li>
+        <li>Paste keys in textarea</li>
+        <li>Press the button to validate the keys</li>
+        <li>Have a coffee ☕</li>
+      </ol>  
+      <p><b>Updated 2025/01/30 Info:</b></p>
+      <p>I have updated this extension because I have had to use it, and it turns out that it didn't work, so I took the opportunity to change the design a bit, make it more user-friendly and understandable, and make some improvements.</p>
       <p>I am sure that the code can be improved and that is why I publish the source on github.</p>
       <p>My Website: <a href="https://www.nezosgames.com" target="_blank">nezosgames.com</a></p>
-      <p>Buy a game?: <a href="https://store.steampowered.com/search/?developer=NEZOS%20GAMES" target="_blank">Steam</a> or <a href="https://nezosgames.itch.io" target="_blank">itch.io</a></p>
+      <p>Buy a game?: <a href="https://store.steampowered.com/search/?developer=NEZOS%20GAMES" target="_blank">Steam</a>
+        or <a href="https://nezosgames.itch.io" target="_blank">itch.io</a></p>
       <br>
       <p>Sincerely:</p>
       <p><a href="https://twitter.com/avarozdev" target="_blank">@Avarozdev</a></p>
-
     </div>
-
+<br><br><br><br>
     <script src='js/cdkeysvalidator.js'></script>
     <script src='js/accordeon.js'></script>
   </div>
 
   <div class="footer">
-    <p><a href="https://www.paypal.me/tomasfjm" target="_blank"><b>Buy a Coffee</b></a> | <a href="https://github.com/tomasfjm/STEAM-KEYS-VALIDATOR" target="_blank">Go to github</a></p>
+    <p><a href="https://www.paypal.me/tomasfjm" target="_blank"><b>Buy a Coffee</b></a> | <a
+        href="https://github.com/tomasfjm/STEAM-KEYS-VALIDATOR" target="_blank">Go to github</a></p>
   </div>
 </body>
 
