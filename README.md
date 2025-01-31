@@ -1,4 +1,4 @@
-# STEAM-KEYS-VALIDATOR (V1)
+# STEAM-KEYS-VALIDATOR (V2)
 
 Validate multiple steam keys and generate txt files with the keys that have not been used and those that were used.
 
